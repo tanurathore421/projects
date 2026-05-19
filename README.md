@@ -1,70 +1,72 @@
-# Getting Started with Create React App
+# 🚀 React Projects Collection
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A collection of React projects built using concepts like components, state management, props, CRUD operations, API integration, and UI design.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Projects 
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🧮 Calculator App
+A simple calculator built using React that performs basic arithmetic operations.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+**Features:**
+- Addition, subtraction, multiplication, division
+- Clear/reset functionality
+- Responsive UI
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 📝 Notes App
+A lightweight notes-taking application to create and manage personal notes.
 
-### `npm run build`
+**Features:**
+- Add new notes
+- Edit existing notes
+- Delete notes
+-  local storage support
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🛍️ Mini Product Store
+A simple product listing application simulating an online store.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+**Features:**
+- Display products
+- Product listing UI
+- Use filter for price, search input and category
+- Responsive layout
 
-### `npm run eject`
+---
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 🌦️ Weather App
+A weather forecasting application using real-time API data.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+**Features:**
+- Search weather by city
+- Live temperature updates
+- Weather conditions display (sunny, cloudy, etc.)
+- API integration using OpenWeather
+- Use Axios
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### 🎓 Student Management System (CRUD)
+A CRUD-based system to manage student records.
 
-## Learn More
+**Features:**
+- Create student records
+- Read and display student list
+- Update student details
+- Delete student records
+  
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🛠️ Technologies Used
+- React.js
+- JavaScript (ES6+)
+- HTML5 & CSS3
+- REST API (Weather App)
+- Local Storage / JSON
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
