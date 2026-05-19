@@ -1,0 +1,98 @@
+/* Page background */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  margin: 0;
+  padding: 20px;
+}
+
+/* Container feel */
+input {
+  margin: 5px 10px 10px 0;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+input:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 4px rgba(74, 144, 226, 0.5);
+}
+
+/* Buttons */
+button {
+  padding: 8px 14px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: 0.2s ease;
+}
+
+/* Add button */
+button:first-of-type {
+  background-color: #28a745;
+  color: white;
+}
+
+button:first-of-type:hover {
+  background-color: #218838;
+}
+
+/* Update button (when edit mode is active) */
+button:nth-of-type(1):not(:first-of-type) {
+  background-color: #007bff;
+  color: white;
+}
+
+button:nth-of-type(1):not(:first-of-type):hover {
+  background-color: #0069d9;
+}
+
+/* Table styling */
+table {
+  width: 100%;
+  margin-top: 20px;
+  border-collapse: collapse;
+  background: white;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+th {
+  background-color: #343a40;
+  color: white;
+  padding: 12px;
+}
+
+td {
+  text-align: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+/* Row hover effect */
+tr:hover {
+  background-color: #f1f1f1;
+}
+
+/* Edit button */
+td button:first-child {
+  background-color: #ffc107;
+  color: black;
+}
+
+td button:first-child:hover {
+  background-color: #e0a800;
+}
+
+/* Delete button */
+td button:last-child {
+  background-color: #dc3545;
+  color: white;
+}
+
+td button:last-child:hover {
+  background-color: #c82333;
+}

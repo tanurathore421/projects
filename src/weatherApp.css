@@ -1,0 +1,75 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right,rgb(79, 192, 253), #74ebd5, #acb6e5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Main heading */
+h1 {
+  text-align: center;
+  color: #660892;
+  margin-bottom: 5px;
+  font-style: italic;
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* Sub heading */
+h3 {
+  text-align: center;
+  color: #444;
+  font-weight: 400;
+}
+
+/* Input box */
+.input {
+  padding: 10px;
+  width: 220px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  margin-right: 10px;
+  box-shadow: 0 6px 5px rgba(17, 6, 230, 0.2);
+  font-size: 14px;
+}
+
+/* Button */
+#btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 8px;
+  background-color: #0077ff;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+#btn:hover {
+  background-color: #005ad1;
+}
+
+/* Weather card section */
+#section {
+  margin-top: 20px;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  width: 300px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Weather details text */
+#section h2 {
+  text-align: center;
+  color: #222;
+  margin-bottom: 10px;
+}
+
+#section h3 {
+  margin: 6px 0;
+  color: #555;
+}

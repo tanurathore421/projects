@@ -1,0 +1,94 @@
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right,rgb(250, 214, 174), #f8bdcd, #faf4c7);
+  margin: 0;
+  padding: 20px;
+  color: #1f2937;
+}
+
+/* input section */
+.inputBox {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input.addNote {
+  width: 250px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+}
+
+input.addNote:focus {
+  border-color: #4f46e5;
+}
+
+/* button */
+button.toggle {
+  padding: 10px 14px;
+  border: none;
+  background: #4f46e5;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button.toggle:hover {
+  background: #4338ca;
+}
+
+/* notes container */
+.notesContainer {
+  max-width: 500px;
+  margin: auto;
+}
+
+/* note card */
+.noteCard {
+  background: white;
+  padding: 12px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+}
+
+/* text */
+.noteText {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+
+/* buttons */
+.btnRow {
+  display: flex;
+  gap: 8px;
+}
+
+button.edit {
+  padding: 6px 10px;
+  border: none;
+  background: #f59e0b;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.delete {
+  padding: 6px 10px;
+  border: none;
+  background: #ef4444;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button.edit:hover {
+  background: #d97706;
+}
+
+button.delete:hover {
+  background: #dc2626;
+}
